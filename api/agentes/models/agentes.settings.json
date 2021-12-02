@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agentes",
+  "info": {
+    "name": "Agentes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  }
+}
